@@ -1,0 +1,52 @@
+<svg width="84" height="96" viewBox="0 0 84 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Logo">
+    <!-- Hexagon outline -->
+    <path
+      d="M42 2L2 25.5V70.5L42 94L82 70.5V25.5L42 2Z"
+      stroke="#64FFDA"
+      stroke-width="3"
+      fill="none"
+    />
+
+    <!-- AA Monogram -->
+    <g id="AA" transform="translate(42, 48)">
+      <!-- First A -->
+      <path
+        d="M-18 12 L-18 12 L-10 -8 L-2 12"
+        stroke="#64FFDA"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"
+      />
+      <line
+        x1="-16"
+        y1="4"
+        x2="-4"
+        y2="4"
+        stroke="#64FFDA"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+
+      <!-- Second A -->
+      <path
+        d="M2 12 L2 12 L10 -8 L18 12"
+        stroke="#64FFDA"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"
+      />
+      <line
+        x1="4"
+        y1="4"
+        x2="16"
+        y2="4"
+        stroke="#64FFDA"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+    </g>
+  </g>
+</svg>
