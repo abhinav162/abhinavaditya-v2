@@ -1,0 +1,55 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background hexagon with fill for better visibility at small sizes -->
+  <path
+    d="M256 32L64 144V368L256 480L448 368V144L256 32Z"
+    fill="#0a192f"
+  />
+  <path
+    d="M256 32L64 144V368L256 480L448 368V144L256 32Z"
+    stroke="#64FFDA"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- AA Monogram - optimized for small sizes -->
+  <g transform="translate(256, 256)">
+    <!-- First A -->
+    <path
+      d="M -70 60 L -40 -60 L -10 60"
+      stroke="#64FFDA"
+      stroke-width="20"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+    <line
+      x1="-62"
+      y1="20"
+      x2="-18"
+      y2="20"
+      stroke="#64FFDA"
+      stroke-width="20"
+      stroke-linecap="round"
+    />
+
+    <!-- Second A -->
+    <path
+      d="M 10 60 L 40 -60 L 70 60"
+      stroke="#64FFDA"
+      stroke-width="20"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+    <line
+      x1="18"
+      y1="20"
+      x2="62"
+      y2="20"
+      stroke="#64FFDA"
+      stroke-width="20"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>
