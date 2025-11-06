@@ -163,13 +163,6 @@ const About = () => {
               visualization tools and performance-optimized web applications.
             </p>
 
-            <p>
-              I recently completed my B.Tech in Computer Science and Engineering from Lovely
-              Professional University with a CGPA of 8.74. I enjoy working on side projects like{' '}
-              <a href="https://github.com/abhinav162/drift-chat">Drift Chat</a>, a real-time chat
-              application that has been downloaded over 1,000 times on npm.
-            </p>
-
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
