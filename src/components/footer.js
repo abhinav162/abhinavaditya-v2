@@ -68,6 +68,7 @@ const StyledCredit = styled.div`
 `;
 
 const Footer = () => {
+  // eslint-disable-next-line no-unused-vars
   const [githubInfo, setGitHubInfo] = useState({
     stars: null,
     forks: null,
@@ -105,7 +106,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
+        {/* <a href="https://github.com/bchiang7/v4">
           <div>Designed &amp; Built by Brittany Chiang</div>
 
           {githubInfo.stars && githubInfo.forks && (
@@ -120,7 +121,7 @@ const Footer = () => {
               </span>
             </div>
           )}
-        </a>
+        </a> */}
       </StyledCredit>
     </StyledFooter>
   );
