@@ -1,21 +1,17 @@
 ---
-date: '1'
+date: '2'
 title: 'Resumate'
 cover: './resumate.png'
 github: 'https://github.com/abhinav162/resumate'
 external: 'https://resumate.abhinavaditya.com/'
 cta: 'https://resumate.abhinavaditya.com/'
 tech:
-  - Generative AI
-  - React
-  - Node.js
-  - Express.js
-  - Docker
+  - LangChain
+  - Google Gemini
+  - React 19
   - TypeScript
+  - Express
   - SQLite
-  - Passport.js
-  - Tailwind CSS
-  - Latex Generations
 ---
 
-Resumate addresses a critical challenge in the modern job market: tailoring resumes to specific job descriptions while maintaining ATS compatibility. The platform uses Google's Generative AI to intelligently restructure and optimize resumes, helping candidates stand out in automated screening processes.
+Resumate tailors a resume to a job description and scores the result against ATS filters. Candidates connect their GitHub account and pick repositories, which LangChain turns into a per-user knowledge base, so every rewrite is grounded in work they actually shipped. A multi-stage pipeline routes generation across providers. It runs as an npm-workspaces monorepo on a Node/Express and SQLite backend, with credits-based billing and zero-downtime deploys.

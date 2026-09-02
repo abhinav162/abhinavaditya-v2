@@ -61,13 +61,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Abhinav Aditya.</h2>;
-  const three = <h3 className="big-heading">I build scalable web applications.</h3>;
+  const three = <h3 className="big-heading">I build systems that scale.</h3>;
   const four = (
     <>
       <p>
-        I'm a software engineer with over 2 years of experience in end-to-end web development,
-        specializing in creating user interfaces with React, Angular, and TypeScript. Currently, I'm
-        focused on building high-performance software solutions at{' '}
+        I'm a software engineer working across production infrastructure and applied AI. Recently
+        that has meant a RabbitMQ/Redis email engine dispatching 400K+ messages a day, multi-agent
+        LLM pipelines, and MCP servers. Currently I'm building full-stack and platform systems at{' '}
         <a href="https://hirequotient.com/" target="_blank" rel="noreferrer">
           HireQuotient
         </a>
@@ -78,10 +78,10 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://github.com/abhinav162/drift"
+      href="https://pypi.org/project/synapse-context-cli/"
       target="_blank"
       rel="noreferrer">
-      Check out my recent project!
+      Check out Synapse, my latest project!
     </a>
   );
 

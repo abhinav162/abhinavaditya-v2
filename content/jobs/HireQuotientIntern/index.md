@@ -3,7 +3,7 @@ date: '2024-07-01'
 title: 'Software Developer Intern'
 company: 'HireQuotient'
 location: 'Bengaluru, India'
-range: 'July 2024 - January 2025'
+range: 'July 2024 - December 2024'
 url: 'https://hirequotient.com/'
 ---
 

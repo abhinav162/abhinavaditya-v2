@@ -7,6 +7,22 @@
 const path = require('path');
 const _ = require('lodash');
 
+// Declare optional frontmatter fields explicitly so queries don't break when no
+// markdown file happens to use them. Gatsby infers types from content, so a field
+// referenced in a query but absent from every file is a hard build error.
+// https://www.gatsbyjs.com/docs/reference/graphql-data-layer/schema-customization
+exports.createSchemaCustomization = ({ actions }) => {
+  actions.createTypes(`
+    type MarkdownRemarkFrontmatter implements Node {
+      company: String
+      ios: String
+      android: String
+      cta: String
+      showInProjects: Boolean
+    }
+  `);
+};
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);

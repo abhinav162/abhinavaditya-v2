@@ -1,6 +1,6 @@
 ---
 date: '2023-12-01'
-title: 'Frontend Developer'
+title: 'Frontend Developer (Part-time)'
 company: 'Neuton'
 location: 'Remote'
 range: 'December 2023 - May 2024'

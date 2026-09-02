@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Abhinav Aditya',
     description:
-      'Abhinav Aditya is a software engineer with over 2 years of experience in end-to-end web development, specializing in creating user interfaces with React, Angular, and TypeScript.',
+      'Abhinav Aditya is a software engineer working across production infrastructure and applied AI — distributed queue systems, multi-agent LLM pipelines, MCP servers, and full-stack product work in React and TypeScript.',
     siteUrl: 'https://abhinavaditya.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@abhinav162',

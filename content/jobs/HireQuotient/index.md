@@ -1,15 +1,18 @@
 ---
-date: '2025-02-01'
-title: 'Software Developer'
+date: '2025-01-01'
+title: 'Software Developer (Full-stack & Infrastructure)'
 company: 'HireQuotient'
 location: 'Bengaluru, India'
-range: 'February 2025 - Present'
+range: 'January 2025 - Present'
 url: 'https://hirequotient.com/'
 ---
 
-- Engineered an AI Copilot feature, improving data enrichment accuracy by 30% by designing the backend logic and prompt strategy for intent recognition from user inputs
-- Revamped the email outreach service to process over 1M emails per hour across 200+ workflows, slashing the system error rate from 5% to under 0.2% through error handling
-- Accelerated SMS outreach throughput to over 100K messages per hour by re-architecting the data enrichment process, which eliminated a 5-minute processing bottleneck
-- Fortified system reliability for high-volume campaigns by upgrading the MongoDB infrastructure and introducing parallel processing, supporting a 10x traffic growth
-- Unified 10+ disparate ATS/CRM connections into a single integration framework, cutting development effort for new systems by 60% and enabling rapid scalability
-- Delivered real-time user alerts for long-running tasks via a new WebSocket-based system, increasing user engagement with the notification feature by 40%
+- Built and scaled the multi-provider outbound email engine from scratch (Gmail, Outlook, SendGrid, SMTP/IMAP): a horizontally scalable RabbitMQ/Redis system dispatching 400K+ emails per day and 1.5M+ in a peak week, with sender-pool inbox rotation and OAuth 2.0 connection flows
+- Shipped a multi-agent GenAI pipeline on an async FastAPI backend, with three cooperating stages (Gatekeeper, Generator, Critic) automating relevance scoring and personalized outreach to replace manual lead sourcing
+- Delivered an end-to-end conversational recruiter copilot powered by LLM tool-calling, exposing 6+ natural-language actions so recruiters run core workflows entirely by chat
+- Centralized all OpenAI and Azure OpenAI traffic across 2 backend services through a unified Bifrost (Maxim AI) LLM gateway with automatic provider fallbacks, streaming, and embedding generation
+- Built 6+ end-to-end ATS and data-provider integrations (UKG Pro, Loxo, Lever, Wiza, Lusha) behind a single abstraction layer, each with OAuth 2.0 auth and bidirectional candidate sync
+- Built a branch-locked, authorization-gated zero-trust CI/CD pipeline in GitHub Actions that blocks unauthorized production deploys org-wide, containerized all 5 services with Docker, and automated AWS ECR/ECS provisioning with Terraform and Ansible
+- Orchestrated a cross-account migration of all EC2 servers to a new AWS environment and bootstrapped 2 production services from the first commit
+- Delivered major dashboard surfaces in React 19, TypeScript, Redux, and Tailwind CSS with real-time Socket.io notifications, role-based access control, and inbox-rotation monitoring
+- Led the application's Create React App to Vite migration and the move of legacy UI to a custom shadcn/ui + Tailwind component library, reducing bundle size and improving maintainability

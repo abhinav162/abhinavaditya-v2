@@ -126,17 +126,17 @@ const About = () => {
   }, []);
 
   const skills = [
-    'JavaScript (ES6+)',
     'TypeScript',
-    'React',
-    'Angular',
-    'Node.js',
-    'MongoDB',
-    'Next.js',
-    'GraphQL',
-    'Redis',
-    'RabbitMQ',
-    'Material UI',
+    'Python',
+    'React 19 / Next.js',
+    'FastAPI / Node.js',
+    'LangChain & RAG',
+    'MCP Server Design',
+    'Qdrant / Redis',
+    'RabbitMQ & SQS',
+    'MongoDB / PostgreSQL',
+    'AWS (ECS, ECR, EC2)',
+    'Docker & Terraform',
     'Tailwind CSS',
   ];
 
@@ -148,19 +148,26 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Abhinav and I'm passionate about creating scalable web applications
-              that solve real-world problems. My journey in software development began during my
-              computer science studies, where I discovered my love for building user-centric
-              interfaces and optimizing backend systems.
+              Hello! My name is Abhinav and I like owning a system end to end, from the queue that
+              moves the data to the interface people use. I got there by shipping side projects
+              while finishing a B.Tech in Computer Science at Lovely Professional University, then
+              holding a full-time engineering role through my final academic year.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://hirequotient.com/">HireQuotient</a> as a full-time Software
-              Developer, where I've contributed to building AI-powered recruitment solutions that
-              process millions of emails and messages. I've also worked remotely with{' '}
-              <a href="https://neuton.ai/">Neuton</a> as a Frontend Developer, creating data
-              visualization tools and performance-optimized web applications.
+              Today I'm at <a href="https://hirequotient.com/">HireQuotient</a>. I built the
+              multi-provider outbound email engine there from scratch, a RabbitMQ/Redis system that
+              dispatches 400K+ emails a day, and bootstrapped two production services from the first
+              commit. I also shipped a multi-agent GenAI pipeline and an LLM tool-calling recruiter
+              copilot. Before that I worked remotely with <a href="https://neuton.ai/">Neuton</a> on
+              data visualization and performance work in React.
+            </p>
+
+            <p>
+              Outside of work I'm building{' '}
+              <a href="https://pypi.org/project/synapse-context-cli/">Synapse</a>, a universal
+              memory layer that serves a whole codebase, uncommitted work included, to AI coding
+              tools over MCP.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
