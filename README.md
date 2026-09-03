@@ -8,7 +8,7 @@
   Personal portfolio website of <a href="https://abhinavaditya.com" target="_blank">Abhinav Aditya</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and React
 </p>
 <p align="center">
-  Software Engineer specializing in React, Angular, and TypeScript
+  Software Engineer working across production infrastructure and applied AI
 </p>
 
 <!-- ![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png) -->
@@ -19,21 +19,28 @@ This is my personal portfolio website showcasing my work as a Software Engineer.
 
 ### 💼 Professional Experience
 
-- **Software Developer** at [HireQuotient](https://hirequotient.com/) (Feb 2025 - Present)
-- **Software Developer Intern** at HireQuotient (July 2024 - Jan 2025)
-- **Frontend Developer** at [Neuton](https://neuton.ai/) (Dec 2023 - May 2024)
+- **Software Developer (Full-stack & Infrastructure)** at [HireQuotient](https://hirequotient.com/) (Jan 2025 - Present)
+- **Software Developer Intern** at HireQuotient (July 2024 - Dec 2024)
+- **Frontend Developer (Part-time)** at [Neuton](https://neuton.ai/) (Dec 2023 - May 2024)
 
 ### 🎓 Education
 
 - **B.Tech in Computer Science and Engineering** from Lovely Professional University (CGPA: 8.74)
 
+### 🚀 Featured Projects
+
+- **[Synapse](https://pypi.org/project/synapse-context-cli/)** — universal memory layer serving whole codebases (uncommitted code included) to AI coding tools over MCP
+- **[Resumate](https://resumate.abhinavaditya.com/)** — AI resume-tailoring SaaS grounded in GitHub project evidence via LangChain
+- **[Drift](https://drift.abhinavaditya.com)** — real-time chat with a web client and an npm-published terminal client
+
 ### 🛠 Tech Stack
 
-- Frontend: React, Angular, TypeScript, JavaScript (ES6+)
-- Backend: Node.js, Express.js
-- Database: MongoDB, Redis
-- Tools: Git, Docker, nginx, WebSockets
-- UI/UX: Material UI, Tailwind CSS
+- Languages: TypeScript, Python, JavaScript (ES6+), SQL
+- AI & LLM: LangChain, RAG & embeddings, MCP server design, multi-agent orchestration, LLM tool-calling, OpenAI / Azure OpenAI / Gemini
+- Frontend: React 19, Next.js, Redux, React Query, Tailwind CSS, shadcn/ui, Vite
+- Backend: FastAPI (async), Node.js, Express, Celery, Temporal, WebSockets, OAuth 2.0
+- Data & messaging: MongoDB, PostgreSQL, Redis, Qdrant, RabbitMQ, AWS SQS
+- Infrastructure: AWS (EC2, ECS, ECR, S3), Docker, Terraform, Ansible, GitHub Actions, Nginx, Grafana, Prometheus, Sentry
 
 ## 🙏 Credits
 
